@@ -1,0 +1,8 @@
+pipelines:
+  - name: MB_P_SYC_Pipelines_7182_0002
+    steps:
+      - name: P_SYC_Pipelines_7182_0002_1
+        type: Bash
+        execution:
+          onExecute:
+            - echo "hello"
